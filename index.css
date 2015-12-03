@@ -1,0 +1,66 @@
+html, body{
+  margin:0px;
+  padding:0px;
+}
+* {
+  box-sizing:border-box;
+}
+
+#Calendar {
+  font-size:14px;
+  text-align:center;
+  width:500px;
+  height:280px;
+  padding:10px;
+  line-height:1.5em;
+  border:1px solid #222;
+  background:#D8D8D8;}
+#idCalendarYear {
+
+}
+#idCalendarMonth {
+
+}
+table{
+  width:100%;
+  }  
+td {
+  font-size: 12px;
+  border:1px solid #222;
+  width:40px;
+  height:30px;
+}
+td:hover {
+  background:#f5f5f5
+}
+.dateColor {
+  color:gray;
+}
+
+ .fa{
+  font-size: 12px;
+  color:#222;
+ }
+#idCalendarNextMonth{
+  cursor:pointer;
+  float:right; 
+ }
+
+#idCalendarPreMonth{
+  cursor:pointer;
+  float:right;
+  }
+
+#idCalendarNextYear{
+  cursor:pointer;
+  float:left; 
+ }
+
+#idCalendarPreYear{
+  cursor:pointer;
+  float:left;
+}
+
+
+
+
